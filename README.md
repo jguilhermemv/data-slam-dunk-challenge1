@@ -23,6 +23,7 @@ This project was created as part of a challenge in the "desafio-1-março-2023" c
 4. Install the project dependencies with Poetry
 
 ```poetry install```
+
 5. Set up a PostgreSQL database with the appropriate credentials
 6. Run the script
 

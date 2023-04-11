@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "data-slam-dunk"
+version = "0.1.0"
+description = "Python script to insert NBA and Top Tech Startups data into a PostgreSQL database"
+authors = ["José Guilherme"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9.7"
+psycopg2-binary = "^2.9.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+
+mkdir data && 
+mkdir db
+mkdir db/models
+
+# Create the tests directory
+mkdir tests
